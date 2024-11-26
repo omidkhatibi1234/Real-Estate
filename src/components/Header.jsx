@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import headerImg from "../assets/header_img.png";
+import headerImg from "../assets/header_img.webp";
 import Navbar from "./Navbar";
 const Header = () => {
   return (

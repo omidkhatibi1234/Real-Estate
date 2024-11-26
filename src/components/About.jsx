@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <motion.div
-      initial={{ opacity: 0, x: -200 }}
+      initial={{ opacity: 0, x: 200 }}
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewPort={{ once: true }}
-      className="container flex flex-col items-center justify-center mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden"
+      className="container w-full flex flex-col items-center justify-center mx-auto p-14 md:px-20 lg:px-32  overflow-hidden"
       id="About"
     >
       <h1 className="text-2xl sm:text-4xl font-bold mt-2">
